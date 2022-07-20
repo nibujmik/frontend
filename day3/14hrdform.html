@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   <style>
+    td{
+        border: 1px double gray;
+        
+    }
+    table{
+        border: 1px solid gray;
+    }
+    label.mpt{
+    cursor: pointer;
+    
+}
+button{
+    padding: 1px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin:auto;
+    /* display: block; */
+    
+}
+label.title{
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+h3{
+    text-align: center;
+}
+tr:last-child>td{
+    background-color: white;
+    text-align: center;
+}
+
+
+   </style>
+</head>
+<body>
+    <div style="width: 70%; margin:auto; max-width: 600px;">
+    <h3>홈쇼핑 회원 등록</h3>
+    <form action="">
+        <table style="width: 100%;">
+            <tr>
+                <td><label for="lblc_id" class="title mpt" >회원번호(자동생성)</label></td>
+                <td><input type="text" name="c_id" id="lblc_id" style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lblname" class="title mpt">회원성명</label></td>
+                <td><input type="text" name="name"id="lblname" style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lblphone" class="title mpt">회원전화</label></td>
+                <td><input type="text" name="phone" id="lblphone" style="width: 130px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lbladdr" class="title mpt">회원주소</label></td>
+                <td><input type="text" name="addr"  id="lbladdr"style="width: 200px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lbldate" class="title mpt">가입일자</label></td>
+                <td><input type="text" name="date"  id="lbldate" style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lblgrade" class="title mpt">고객등급[A:VIP,B:일반,C:직원]</label></td>
+                <td><input type="text" name="grade"  id="lblgrade" style="width: 70px;"></td>
+            </tr>
+            <tr>
+                <td><label for="lblcity" class="title mpt">도시코드</label></td>
+                <td><input type="text" name="city"  id="lblcity" style="width: 70px;"></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <button style=" display: inline-block;">등록</button>
+                    <button style=" display: inline-block;">조회</button>
+                </td>
+            </tr>
+       
+        </table>
+</body>
+</form>
+</div>
+</body>
+</html>
