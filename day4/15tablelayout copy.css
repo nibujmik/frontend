@@ -1,0 +1,67 @@
+.header{
+    background-color: cadetblue;
+    color: white;
+    padding: 40px 20px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.nav{
+}
+body{
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+    background-color: brown;
+    overflow: hidden;
+    margin: auto;
+    margin-left: -10px;
+    
+    /* border: 1px solid blue; */
+}
+ul>li{
+    float: left;
+    color: aliceblue;
+    /* border: 1px solid black; */
+}
+/* 위의 border로 영역확인 : ul 영역이 li 영역보다 작음 */
+ul > li  a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+ul > li a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.main{
+    background-color: azure;
+    padding: 20px;
+    height: 500px;
+    margin-left: -10px;
+}
+.footer{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: -10px;
+}
+th,td{
+    border: 1px double gray;
+    
+}
+table{
+    border: 1px solid gray;
+    width: 100%;
+}
+h3{
+ 
+    text-align: center;
+}
